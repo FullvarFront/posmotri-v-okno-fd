@@ -244,7 +244,9 @@ ol {
 }
 
 .content__video-card-description-container {
-  flex-grow: 0;
+  flex-grow: 1;
+  flex-basis: 0;
+  overflow: hidden;
 }
 
 .content__video-card-title {
@@ -254,6 +256,7 @@ ol {
   text-transform: uppercase;
   overflow: hidden;
   text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .content__video-card-description {
@@ -263,7 +266,7 @@ ol {
 
 .content__video-card-thumbnail {
   height: 103px;
-  min-width: 194px;
+  min-width: 198px;
   object-fit: cover;
   object-position: center;
 }
